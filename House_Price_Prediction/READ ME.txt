@@ -1,0 +1,71 @@
+House Price Prediction ML Project
+This project is focused on developing a machine learning model to predict house prices. The goal is to create a model that can accurately estimate the price of a house based on various features and attributes.
+
+Table of Contents
+Introduction
+Dataset
+Installation
+Usage
+Model Training
+Evaluation
+Deployment
+Contributing
+License
+Introduction
+The prediction of house prices is a common problem in the real estate industry. Machine learning techniques can be used to analyze historical data and extract patterns to predict the prices of new houses accurately. This project utilizes a dataset of historical house prices and various features such as location, size, number of rooms, etc., to train a machine learning model that can predict house prices based on given input.
+
+Dataset
+The dataset used for this project contains historical records of house prices along with several attributes that describe each house. The dataset can be downloaded from [insert link to dataset].
+
+The dataset consists of the following columns:
+
+price: The target variable representing the price of the house.
+bedrooms: The number of bedrooms in the house.
+bathrooms: The number of bathrooms in the house.
+area: The total area of the house in square feet.
+zipcode: The ZIP code of the location where the house is situated.
+condition: The overall condition of the house on a scale of 1 to 10.
+age: The age of the house in years.
+
+Usage
+To use the trained model for house price prediction, follow these steps:
+
+Make sure you have installed all the dependencies.
+Prepare your input data with the necessary features (e.g., number of bedrooms, bathrooms, area, etc.).
+Load the trained model using your preferred framework or library.
+Pass the input data to the model and obtain the predicted house price.
+
+STEPS:
+1. Import Libraries
+2. Read Data
+3. Getting Dataframe Information
+4. To find numeric and non numerical cols
+5. Filling Missing Values
+6. Using cat cols feature encoding
+7. Feature reduction on corr
+8. Finding X and Y Column
+9. Model Building
+
+Model Training
+To train the house price prediction model on your own dataset, follow these steps:
+
+Prepare your dataset in CSV or compatible format, following the same column structure as mentioned in the Dataset section.
+Split the dataset into training and testing sets.
+Use a machine learning library or framework of your choice to create a regression model.
+Train the model using the training dataset.
+Evaluate the model's performance using the testing dataset.
+Save the trained model for later use.
+
+
+Example code:
+python
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+
+
+
+
+
